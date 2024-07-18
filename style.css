@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(133, 130, 130);
+    color: white;
+    background-color: black;
+}
+.main{
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin-top: 150px;
+ 
+
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid green;
+    width: 550px;
+    max-width: 90%;
+    padding: 20px;
+    border-radius: 10%;
+    
+
+}
+.in{
+    height: 60px;
+    font-size: 45px;
+    cursor: pointer;
+  
+}
+
+.submitButton{
+    background-color: blueviolet;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.result{
+    font-size: 45px;
+}
